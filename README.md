@@ -26,5 +26,5 @@ $ ~/go/bin/go-ses2email --help
 To send message to slack simply do:
 
 ```sh
-$ ~/go/bin/go-ses2email --from "from@domain.com" --to "to@domain.com" --subject "Your subject" --text "Your text message!"
+$ ~/go/bin/go-ses2email --from "from@domain.com" --to "to@domain.com" --subject "Your subject" --html "Your html message!" --text "Your text message!"
 ```
